@@ -6,7 +6,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 from scrapy.exceptions import DropItem
 from scrapy import signals
-from scrapy.contrib.exporter import CsvItemExporter
+from scrapy.exporter import CsvItemExporter
 
 # Pipeline to remove duplicate objects
 class DuplicatesPipeline(object):
