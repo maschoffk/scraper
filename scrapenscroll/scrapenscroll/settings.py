@@ -12,7 +12,7 @@ BOT_NAME = 'scrapenscroll'
 
 SPIDER_MODULES = ['scrapenscroll.spiders']
 NEWSPIDER_MODULE = 'scrapenscroll.spiders'
-logging.warning('started logging in the settings file')
+print('started logging in the settings file')
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
