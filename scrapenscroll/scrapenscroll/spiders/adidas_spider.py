@@ -2,7 +2,7 @@ import scrapy
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 
-from scrapenscroll.items import ProductItem
+#from scrapenscroll.items import ProductItem
 
 
 ## LOGGING to file
