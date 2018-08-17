@@ -12,7 +12,7 @@ from scrapy.log import ScrapyFileLogObserver
 logfile = open('testlog.log', 'w')
 log_observer = ScrapyFileLogObserver(logfile, level=logging.DEBUG)
 log_observer.start()
-
+logging.warning('started logging')
 # Spider for crawling Adidas website for shoes
 class AdidasSpider(CrawlSpider):
     name = "adidas"
