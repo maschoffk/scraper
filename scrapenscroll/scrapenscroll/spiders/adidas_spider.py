@@ -6,12 +6,12 @@ from scrapenscroll.items import ProductItem
 
 
 ## LOGGING to file
-#import logging
-#from scrapy.log import ScrapyFileLogObserver
+import logging
+from scrapy.log import ScrapyFileLogObserver
 
-#logfile = open('testlog.log', 'w')
-#log_observer = ScrapyFileLogObserver(logfile, level=logging.DEBUG)
-#log_observer.start()
+logfile = open('testlog.log', 'w')
+log_observer = ScrapyFileLogObserver(logfile, level=logging.DEBUG)
+log_observer.start()
 
 # Spider for crawling Adidas website for shoes
 class AdidasSpider(CrawlSpider):
